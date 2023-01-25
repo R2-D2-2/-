@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 99.4%;
+    padding: 0.3%;
+    background-color: #9b8181;
+    border-bottom: 2px solid rgb(208, 171, 171);
+    float:left;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+#main {
+    width: 80%;
+    padding: 0.3%;
+    margin-left: 10%;
+    background-color: #e6e6e6;
+    border-bottom: 2px solid silver;
+    float:left;
+    min-height: 1500px;
+    text-indent: 30px;
+}
+
+
+    /*font-weight толщина шрифта (100, 200....)
+      font-style: italic*/
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0 20px 0;
+}
+
+p, h2 {
+    margin-left: 2%;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+
+img {
+    float: right;
+    height: 300px;
+    width: 400px;
+    margin-right: 7%;
+    margin-left: 2%;
+}
+
+footer {
+    width: 99.4%;
+    padding: 0.3%;
+    background-color: #9b8181;
+    border-bottom: 2px solid silver;
+    float:left;
+    margin-top: 10px;
+    height: 100px;
+}
+
+article>p#first {
+    color: blue;
+}
+
+#third {
+    text-decoration:overline;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}
+
+article>p #second {
+    color: red;
+}
+
+article>p.text_p {
+    color: red;
+}
+
+article>p .text_p {
+    background-color: red;
+    text-decoration: underline;
+}
+
+article>section>.text_p {
+    color: blue;
+    text-decoration: underline;
+}
+
+input {
+    background-color: rgb(158, 26, 26);
+}
+
+input [type="text"] {
+    background-color: rgb(25, 60, 60);
+    color: bisque;
+}
+
+input + p {
+    font-style: italic;
+    }
+
+input.input_test ~ p {
+    font-style:oblique;
+    color: rgb(244, 12, 12);
+    }
+
+#hr_end {
+    border: 2px solid rgb(89, 238, 252);
+    border-radius: 10%;
+    margin: 0 3%;
+    box-shadow: 0 0 10px 1px rgb(31, 150, 189);
+    }
+
+.hr-two-color {
+    padding: 0;
+    border: 3px solid rgb(0, 0, 0);
+    /*border-bottom: 2px solid rgb(19, 18, 17);*/
+    background: linear-gradient(60deg,rgb(255, 0, 0), rgb(238, 179, 19));
+    box-shadow: 0 0 10px 10px rgb(219, 41, 6);
+    height: 7px;
+    margin: 0 3%;
+    border-radius: 2px;
+}
