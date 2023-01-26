@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 84px;
+    background-color: #007765;
+    color: #FFFFFF;
+    position: fixed;
+    font-size: 24px;
+}
+
+#header {
+    max-width: 1219px;
+    max-height: 84px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 184px;
+    height: 45px;
+    float: left;
+    margin: 19.5px 0 19.5px 55px;
+    color: #FFFFFF;
+}
+
+#link {
+    float: right;
+    margin-right: 55px;
+    margin-top: 25px;
+}
+
+#link a {
+    font-style: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 30px;
+}
+
+.header_link {
+    display:inline-block;
+    color: #FFFFFF;
+}
+
+.header_link {
+    border-right: 2px solid #FFFFFF;
+}
+
+ul {
+    font-style: none;
+}
+
+.header_link:last-child {
+    border-right: 0;
+}
+
+#main {
+    width: 100%;
+    float: left;
+    padding-top: 84px;
+}
+
+h2 {
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+}
+
+#Jumbotron{
+    background-image: url(../img/Jumbotron.png);
+    min-width: 1219px;
+    min-height: 403px;
+    float:left;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#The_Problem {
+    padding-top: 48px;
+    width: 100%;
+    float: left;
+    background-color: #EEEEEE;
+    min-width: 1219px;
+    min-height: 671px;
+    font-size: 32px;
+}
+
+#The_Problem h2 {
+    padding-bottom: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Problem_text {
+    max-width: 1110px;
+    max-height: 488px;
+    padding: 0 54.5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#Hero {
+    width: 100%;
+    float: left;
+    background-image: url(../img/image.png);
+    min-width: 1219px;
+    min-height: 483px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#p_Hero {
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    max-width: 893px;
+    max-height: 228px;
+    padding: 150px 163px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PPC {
+    width: 100%;
+    float: left;
+    background-color: #FFFFFF;
+    min-width: 1219px;
+    min-height: 604px;
+}
+
+#PPC h2 {
+    padding-top: 48px;
+    padding-bottom: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#PPC_img {
+    float: left;
+    width: 115px;
+    height: 115px;
+    padding-right: 47px;
+}
+
+#PPC_text {
+    font-size: 32px;
+    max-width: 1110px;
+    max-height: 375px;
+    padding: 0px 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#The_Team {
+    width: 100%;
+    float: left;
+    background-color: #EEEEEE;
+    min-width: 1219px;
+    min-height: 845px;
+    text-align: center;
+}
+
+
+#The_Team h2 {
+    padding-top: 48px;
+    padding-bottom: 27px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    max-width: 1110px;
+    max-height: 600px;
+    padding: 0px 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table dt {
+    color: #007765;
+    font-size: 24px;
+}
+
+table td {
+    width: 350px;
+    height: 283px;
+    text-align: center;
+}
+
+table img {
+    width: 168px;
+    height: 168px;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    background-color: #333333;
+    min-width: 1219px;
+    min-height: 176px;
+}
+
+#footer {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    max-width: 1219px;
+    max-height: 176px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer p {
+    max-width: 540px;
+    max-height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 0 0;
+}
