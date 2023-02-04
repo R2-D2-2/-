@@ -14,11 +14,11 @@ body {
 
 header {
     width: 80%;
-    min-width: 1024px;
     margin-left: 10%;
+    min-width: 1024px;
     height: 72px;
-    background-color: #FFFFFF;
     position: fixed;
+    background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -78,8 +78,9 @@ header {
     min-width: 1024px;
     float: left;
     margin-left: 10%;
-    margin-top: 72px;
+    padding-top: 72px;
     padding-bottom: 80px;
+    margin-right: 10%;
 }
 
 #search {
@@ -90,7 +91,7 @@ header {
 
 #search_top {
     width: 962px;
-    height: 48px;
+    height: 24px;
     float: left;
     margin: 32px 0 0 0;
     color: #979797;
@@ -175,6 +176,7 @@ footer {
     width: 80%;
     min-width: 1024px;
     margin-left: 10%;
+    margin-right: 10%;
     height: 580px;
     background-color: #262626;
     float: left;
@@ -289,3 +291,23 @@ select {
     bottom: 10px;
     right: 11%;
 }
+
+/*Исправления*/
+#search_top::input-placeholder {
+    font-size: 16px;
+}
+.color-text { 
+    font-size: 16px;
+    color: #626262;
+}
+
+/* Адаптапция */
+@media (max-width: 768px) {
+    header {
+        width: 768px;
+    }
+    #header {
+        width: 700px;
+    }
+    
+    }
