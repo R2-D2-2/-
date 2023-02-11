@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    font-size: 20px;
+}
+
+fieldset {
+    width: 600px;
+    height: 180px;
+    margin: 25px 0 15px 30%;
+}
+
+.fieldset_down {
+    width: 600px;
+    height: 60px;
+}
+
+legend {
+    margin-left: 15px;
+}
+
+.field_1 label {
+    margin: 5px;
+}
+
+.field_1 {
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+
+#field_1 {
+    margin-top: 7px;
+}
+
+.field_1 input {
+    width: 170px;
+    height: 20px;
+
+    float: right;
+}
+
+#choice_1 {
+    margin: 8px 0 0px 19px;
+}
+
+#choice_2 {
+    margin: 8px 0 0px 60px;
+}
+
+.choice_hobby {
+    margin: 8px 0 0px 12px;
+}
+
+.button {
+    margin: 8px 0 0px 30%;
+}
+
+.button button {
+    width: 80px;
+    height: 28px;
+}
