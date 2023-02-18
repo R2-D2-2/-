@@ -8,7 +8,7 @@
 
 body {
     width: 100%;
-    background-color: #dadada;
+    background-color: #ffffff;
 }
 
 header {
@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-    width: 30%;
+    width: 27%;
 }
 
 .logo p {
@@ -35,7 +35,6 @@ header {
     line-height: 53px;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 5%;
 
     color: #000000;
 }
@@ -49,8 +48,7 @@ nav {
 }
 
 .nav_li {
-    width: 20%;
-    margin-right: 5%;
+    width: 70px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 300;
@@ -70,19 +68,29 @@ nav {
     color: #000000;
 }
 
+.nav_li a:hover {
+    color: #e05f1e;
+    transition: all.3s ease;
+}
+
 #main {
-    width: 90%;
+    padding-top: 110px;
+    width: 95%;
     min-width: 1440px;
-    margin-left: 5%;
+    margin-left: 2.5%;
 }
 
 .con_top {
+    
     width: 1440px;
     height: 622px;
     background-image:url(../img/image_1.png);
+    
+    background-repeat: no-repeat;
 
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .con_top p {
@@ -96,11 +104,14 @@ nav {
     text-transform: uppercase;
 
     color: #FFFFFF;
+
+    margin-top: 266px;
 }
 
 .line {
     width: 80px;
     height: 10px;
+    border-radius: 1px;
 
     background: #817070;
 }
@@ -108,8 +119,10 @@ nav {
 .con_middle {
     width: 1440px;
     height: 632px;
+    background-color: #FFFFFF;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -121,6 +134,7 @@ nav {
     line-height: 53px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 60px;
 
     color: #000000;
 }
@@ -128,9 +142,10 @@ nav {
 .content {
     width: 1440px;
     height: 400px;
+    margin-top: 60px;
 
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
 }
 
@@ -140,21 +155,27 @@ nav {
 }
 
 .content p {
+    width: 600px;
+    
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
+    margin: 0 0 0 40px;
 
     color: #000000;
+
 }
 
 .con_down {
     width: 1440px;
     height: 711px;
+    background-color: #EFEFEF;
 
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
 
 .con_down h2 {
@@ -165,6 +186,7 @@ nav {
     line-height: 53px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 60px;
 
     color: #000000;
 }
@@ -172,6 +194,7 @@ nav {
 .con_card {
     width: 1235px;
     height: 474px;
+    margin-top: 60px;
 
     display: flex;
     justify-content: space-between;
@@ -181,6 +204,7 @@ nav {
 .card {
     width: 365px;
     height: 474px;
+    background-color: #FFFFFF;
 
     display: flex;
     flex-direction: column;
@@ -195,6 +219,7 @@ nav {
     font-size: 24px;
     line-height: 36px;
     text-align: center;
+    margin-top: 20px;
 
     color: #000000;
 }
@@ -202,32 +227,36 @@ nav {
 .card img {
     width: 325px;
     height: 216px;
+    margin-top: 24px;
 }
 
 .card p {
+    width: 325px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
+    margin-top: 24px;
+    margin-bottom: 46px;
 
     color: #000000;
 }
 
 footer {
-    width: 90%;
+    width: 95%;
     min-width: 1440px;
-    margin-left: 5%;
+    margin-left: 2.5%;
 }
 
 .footer_top {
     width: 1440px;
     height: 337px;
     background-color: #817070;
-
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -246,15 +275,68 @@ footer {
 .footer_top input {
     width: 300px;
     height: 55px;
+    border: 3px solid #FFFFFF;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #817070;
+    
+    margin: 24px 0 24px 0;
+}
+
+.footer_top input::placeholder {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.footer_top input:focus {
+    border-color: #e05f1e;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+.wrapper {
+    width: 130px;
+    height: 65px;
 }
 
 .button {
     width: 130px;
     height: 55px;
     background-color: #FFFFFF;
+    border: 2px solid #bbbbbb;
+    border-radius: 4px;
+}
+
+.button:hover {
+    margin-top: 2px;
+    border: 2px solid #e05f1e;
+    box-shadow: 0px 0px 5px #de682e;
+}
+
+.button:active {
+    margin-top: 4px;
+    border: 2px solid #e05f1e;
+    box-shadow: 0px 0px 5px #de682e;
+    color: #e05f1e;
+}
+
+.button p:hover {
+    color: #e05f1e;
 }
 
 .button p {
+    width: 134px;
+    height: 57px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 500;
@@ -262,6 +344,9 @@ footer {
     line-height: 30px;
     text-align: center;
     text-transform: uppercase;
+
+    position: relative;
+    padding-top: 11px;
 
     color: #817070;
 }
@@ -284,6 +369,7 @@ footer {
     line-height: 30px;
     text-align: center;
     text-transform: uppercase;
+    margin: 20px 0 14px 0;
 
     color: #000000;
 }
