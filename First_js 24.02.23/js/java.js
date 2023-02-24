@@ -119,4 +119,23 @@ console.log(p)
 // Функции
 /*function имя(параметры) {
     тело функции
-  }*/ 
+}*/ 
+
+function sayHello(){
+    let userName = "John";
+    alert(`Hello, ${userName}!`);
+}
+
+//Имя в функции
+
+sayHello();
+
+function sayHello(userName){
+    alert(`Hello, ${userName}!`);
+}
+
+//Имя прописывается после функции
+
+sayHello('John');
+sayHello('Jack');
+sayHello('Julia');
