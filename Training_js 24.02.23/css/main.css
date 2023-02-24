@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 90%;
+    height: 200vh;
+    margin: 0 5% 0 5%;
+    background-color:rgb(82, 209, 167);
+}
+
+.text {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-indent: 30px;
+    float: left;
+}
+
+p {
+    text-align: justify;
+    margin: 12px 20px;
+    font-size: 16px;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+
+h2, h1 {
+    margin: 20px 0;
+}
+
+.js {
+    color:rgb(21, 57, 35);
+}
+
+.text_js {
+    color: rgb(211, 41, 3);
+}
