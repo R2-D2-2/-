@@ -30,6 +30,10 @@ h2, h1 {
     margin: 20px 0;
 }
 
+ol {
+    margin: 0px 60px;
+}
+
 .js {
     color:rgb(21, 57, 35);
 }
