@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+
+    background-color: #e5e7e5;
+}
+
+.wrapper {
+    width: 90%;
+    height: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #e5e7e5;
+    display: flex;
+    justify-content: center;
+}
+
+.canvas {
+    width: 877px;
+    height: 1240px;
+
+    background-color: #fefefe;
+    box-shadow: 10px 5px 5px #c6d0c6;
+
+    margin-top: 30px;
+}
